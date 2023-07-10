@@ -1,0 +1,19 @@
+.card {
+    background-color: rgba(222, 230, 154, 0.1);
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(46, 45, 46, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    gap: 20px;
+    width: 250px;
+}
+
+#img {
+    height: 200px;
+    width: 200px;
+}
+
+#cardId:hover{
+    transform: translateY(-10px);
+}
