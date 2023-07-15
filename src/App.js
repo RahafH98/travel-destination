@@ -1,18 +1,11 @@
-import Home from './components/home/Home';
+import logo from './logo.svg';
 import './App.css';
-import './components/footer/Footer.css';
-import './components/header/Header.css';
-import './components/home/Home.css';
-import './components/tours/Tours.css';
-
+import Home from "./component/Home/Home"
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      </header>
-      <Home />
-    </div>
-
+    <>
+<Home></Home>
+    </>
   );
 }
 
