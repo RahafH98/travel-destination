@@ -1,6 +1,7 @@
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
-import Tour from "../Tour/Tour";
+import Tours from "../Tours/Tours";
+
 
 export default function Home() {
    
@@ -12,7 +13,7 @@ export default function Home() {
    
     </div>
     <div>
-    <Tour></Tour>
+   <Tours></Tours>
     </div>
    <div>
    <Footer></Footer>
